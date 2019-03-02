@@ -11,4 +11,5 @@ public class CalculatorTest {
         int result = calc.add(10, 20);
         Assert.assertEquals("Add int a + int b", 30, result);
     }
+
 }

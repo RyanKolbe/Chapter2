@@ -18,10 +18,10 @@ public class CalculatorImplementationTest {
     public void testFile() {
         //precondition;
         ApplicationContext applicationContext = new AnnotationConfigApplicationContext(ConfigClass.class);
-        CalculatorInterface calculatorInterface = (CalculatorInterface)applicationContext.getBean("typical");
+        CalculatorInterface calculatorInterface = (CalculatorInterface) applicationContext.getBean("typical");
 
         //actual test;
-        int result = calculatorInterface.add(3,1);
-        Assert.assertEquals(4,result);
+        int result = calculatorInterface.add(3, 1);
+        Assert.assertEquals(4, result);
     }
 }

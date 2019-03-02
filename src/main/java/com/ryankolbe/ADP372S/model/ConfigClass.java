@@ -9,5 +9,5 @@ public class ConfigClass {
     @Bean(name = "typical")
     public CalculatorInterface getService() {
         return new CalculatorImplementation();
-        }
     }
+}

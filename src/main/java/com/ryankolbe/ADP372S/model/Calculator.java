@@ -1,9 +1,8 @@
 package com.ryankolbe.ADP372S.model;
 
-import org.junit.jupiter.api.Test;
-
 public class Calculator {
-    int add(int a, int b) {
-        return a + b;
+
+    int add(int num1, int num2) {
+        return num1 + num2;
     }
 }
